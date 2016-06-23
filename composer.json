@@ -1,5 +1,5 @@
 {
-    "name": "mvlabs/MvlabsDatafilter",
+    "name": "mvlabs/MvlabsDataFilter",
     "description": "",
     "keywords": ["PHP","DataFilter","selectionCriteria","query filter"],
     "homepage": "https://github.com/mvlabs/MvlabsDataFilter",
@@ -25,6 +25,7 @@
     "autoload": {
         "psr-0": {
             "MVA": "src/MVA/"
-        }
+        },
+        "classmap": ["src/"]
     }
 }
